@@ -28,8 +28,8 @@ if os.path.exists("Internal"):
    load_dotenv("Internal")
 
 
-API_ID = int(getenv("API_ID", "10873743"))
-API_HASH = getenv("API_HASH", "da8ce86d450cbf063480fd96799b4be6")
+API_ID = int(getenv("API_ID", "25609334"))
+API_HASH = getenv("API_HASH", "ad0ff353206ea1ebce1ab8bfca9f3f7b")
 BOT_TOKEN = getenv("BOT_TOKEN", "7209856039:AAFH5FrVO5vDAFVXqeQ9RgcMFfmSyH4z5po")
 STRING_SESSION = getenv("STRING_SESSION", "BQCl648AQTBBQISdKMBzpUxXggc6Zw9HutRxh0MdN2qsE3SYls5LF-rkI8zBmFlurbW5rqT-O_nfr53NNqe_Luq1TJIJPHOoDDYGcliAK4swKAfZ_qQbX787dRV3lY7qmqSwurdXkyjfVkgA6MsHnobkNpbotajL4uL0T2dfOE9j9sokldeRl34kTM_iU2R1cuR1xqtLUhmOQ8TiPR71C1nxvnl3m2nJxE3GX_1XUZqIZ4teBVPEQmbewvpW0yfY8VbZ1Ij2XOIAm4af2NPa3tNd1oBtAzVm4P09I3arrTOEdoT5P6Fs73ym5Yu46oeM-tQZVMzUE-LTXvOzeA8PQ3HNqmNbMgAAAAGSUQ9QAA")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Lucky:Lucky@atlascluster.f7lck9c.mongodb.net/?retryWrites=true&w=majority")
